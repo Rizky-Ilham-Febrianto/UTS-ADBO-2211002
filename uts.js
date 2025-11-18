@@ -19,9 +19,9 @@ class karyawan {
 class cutitahunan extends karyawan {
     hitungcuti1() {
         if(this.cuti <= 12) {
-            return "Kuota anda cukup untuk mengajukan cuti ini!";
+            return "Kuota anda cukup untuk mengajukan cuti tahunan!";
         } else {
-            return "Kuota anda tidak cukup untuk mengajukan cuti ini!";
+            return "Kuota anda tidak cukup untuk mengajukan cuti tahunan!";
         };
     }
 }
@@ -29,9 +29,9 @@ class cutitahunan extends karyawan {
 class cutisakit extends karyawan {
     hitungcuti1() {
         if(this.cuti <= 2) {
-            return "Kuota anda cukup untuk mengajukan cuti ini!";
+            return "Kuota anda cukup untuk mengajukan cuti sakit!";
         } else {
-            return "Kuota anda tidak cukup untuk mengajukan cuti ini!";
+            return "Kuota anda tidak cukup untuk mengajukan cuti sakit!";
         };
     }
 }
@@ -39,9 +39,9 @@ class cutisakit extends karyawan {
 class cutimelahirkan extends karyawan {
     hitungcuti1() {
         if(this.cuti <= 90) {
-            return "Kuota anda cukup untuk mengajukan cuti ini!";
+            return "Kuota anda cukup untuk mengajukan cuti melahirkan!";
         } else {
-            return "Kuota anda tidak cukup untuk mengajukan cuti ini!";
+            return "Kuota anda tidak cukup untuk mengajukan cuti melahirkan!";
         };
     }
 }
